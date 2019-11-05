@@ -5,6 +5,7 @@
 
     cordova plugin add cordova-plugin-firebase-files-upload --save
 
+
 This plugin only supports image upload, doesn't check authentication.
 
 ## Supported Platforms
