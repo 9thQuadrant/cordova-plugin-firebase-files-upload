@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-firebase-files-upload",
+  "version": "1.0.0",
+  "description": "Cordova plugin for Firebase Files Upload",
+  "cordova": {
+    "id": "cordova-plugin-firebase-files-upload",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9thQuadrant/cordova-plugin-firebase-files-upload.git"
+  },
+  "author": "Phaneendrq <9thQuadrant@gmail.com> (https://github.com/9thQuadrant)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9thQuadrant/cordova-plugin-firebase-files-upload/issues"
+  },
+  "homepage": "https://github.com/9thQuadrant/cordova-plugin-firebase-files-upload#readme",
+  "keywords": [
+    "cordova",
+    "firebase",
+    "upload",
+    "image",
+    "files",
+    "analytics",
+    "ecosystem:cordova",
+    "cordova-android",
+  ]
+}

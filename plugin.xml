@@ -1,0 +1,50 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+           id="cordova-plugin-firebase-files-upload"
+      version="1.1.2">
+
+    <name>cordova-plugin-firebase-files-upload</name>
+    <description>Cordova plugin for Firebase File Upload</description>
+    <license>MIT</license>
+    <keywords>cordova</keywords>
+    <repo>https://github.com/9thQuadrant/cordova-plugin-firebase-files-upload/</repo>
+    <issue>https://github.com/9thQuadrant/cordova-plugin-firebase-files-upload/issues</issue>
+
+    <js-module src="www/FirebaseFileUpload.js" name="FirebaseFileUpload">
+        <merges target="cordova.plugins.firebase.upload" />
+    </js-module>
+
+    <engines>
+        <engine name="cordova" version=">=7.1.0"/>
+        <engine name="cordova-android" version=">=7.0.0"/>
+    </engines>
+
+
+    <platform name="android">
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="FirebaseFileUpload">
+                <param name="android-package" value="by.phaneendra.cordova.firebase.FirebaseFileUploadPlugin" />
+                
+                <param name="onload" value="false" />
+            </feature>
+        </config-file>
+
+        <dependency id="cordova-support-android-plugin" version="~1.0.0"/>
+        <dependency id="cordova-support-google-services" version="^1.2.0"/>
+
+
+
+        <!-- firestore plugin:start -->        
+        <framework src="com.google.firebase:firebase-core:16.0.9"/>
+        <framework src="com.google.firebase:firebase-firestore:19.0.0"/>
+        <framework src="com.google.code.gson:gson:2.8.2"/>
+        <!-- firestore plugin:end -->
+
+        <framework src="com.google.firebase:firebase-storage:17.0.0" />
+
+        
+
+    </platform>
+
+</plugin>
