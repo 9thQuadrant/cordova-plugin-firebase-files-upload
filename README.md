@@ -1,5 +1,4 @@
-# cordova-plugin-firebase-files-upload<br>[![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url]
-> Cordova plugin for [Firebase Files Upload](https://firebase.google.com/docs/storage/)
+# cordova-plugin-firebase-files-upload
 
 ## Installation
 
