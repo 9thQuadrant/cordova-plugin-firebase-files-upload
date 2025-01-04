@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/9thQuadrant/cordova-plugin-firebase-files-upload.git"
   },
-  "author": "Phaneendrq <9thQuadrant@gmail.com> (https://github.com/9thQuadrant)",
+  "author": "Phaneendra <9thQuadrant@gmail.com> (https://github.com/9thQuadrant)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/9thQuadrant/cordova-plugin-firebase-files-upload/issues"
@@ -26,6 +26,6 @@
     "files",
     "analytics",
     "ecosystem:cordova",
-    "cordova-android",
+    "cordova-android"
   ]
 }
