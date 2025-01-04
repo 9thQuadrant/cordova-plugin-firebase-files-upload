@@ -1,5 +1,8 @@
 # cordova-plugin-firebase-files-upload
 
+[![NPM version](https://img.shields.io/npm/v/cordova-plugin-firebase-files-upload.svg)](https://www.npmjs.com/package/cordova-plugin-firebase-files-upload)
+[![NPM downloads](https://img.shields.io/npm/dm/cordova-plugin-firebase-files-upload.svg)](https://www.npmjs.com/package/cordova-plugin-firebase-files-upload)
+
 ## Installation
 
     cordova plugin add cordova-plugin-firebase-files-upload --save
