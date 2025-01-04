@@ -1,5 +1,6 @@
 # cordova-plugin-firebase-files-upload
 
+[![GitHub repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/<your-username>/<your-repo-name>)
 [![NPM version](https://img.shields.io/npm/v/cordova-plugin-firebase-files-upload.svg)](https://www.npmjs.com/package/cordova-plugin-firebase-files-upload)
 [![NPM downloads](https://img.shields.io/npm/dm/cordova-plugin-firebase-files-upload.svg)](https://www.npmjs.com/package/cordova-plugin-firebase-files-upload)
 
