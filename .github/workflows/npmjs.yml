@@ -3,7 +3,7 @@ name: Publish to npm
 on:
   push:
     branches:
-      - master # Change this to the branch you want to trigger publishing
+      - main  # Change this to the branch you want to trigger publishing
 
 jobs:
   publish:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # Use the Node.js version you need
+          node-version: '18'  # Use a valid LTS version (e.g., '16', '18')
           cache: 'npm'
 
       - name: Authenticate with npm
@@ -28,4 +28,4 @@ jobs:
       - name: Publish to npm
         run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPMJS }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
