@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-firebase-files-upload",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Cordova plugin for Firebase Files Upload",
   "cordova": {
     "id": "cordova-plugin-firebase-files-upload",
